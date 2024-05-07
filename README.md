@@ -1,8 +1,5 @@
-<p align="center" width="100%">
-    <img height="100" src="">
-</p>
 
-# Developer Portfolio
+# Dev Portfolio
 
 
 # Demo :movie_camera:
