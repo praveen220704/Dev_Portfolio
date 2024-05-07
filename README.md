@@ -1,14 +1,11 @@
-<p align="center" width="100%">
-    <img height="100" src="">
-</p>
 
-# Developer Portfolio
+# Dev Portfolio
 
 
 # Demo :movie_camera:
 
 ![](./public/image/screen.png)
 
-## View live preview [here](https://abusaid.netlify.app/).
+## View live preview [here](https://praveenprasath.netlify.app/).
 
 ---
