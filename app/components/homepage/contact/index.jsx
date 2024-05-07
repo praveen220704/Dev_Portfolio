@@ -5,8 +5,6 @@ import { BiLogoLinkedin } from "react-icons/bi";
 import { CiLocationOn } from "react-icons/ci";
 import { IoLogoGithub, IoMdCall } from "react-icons/io";
 import { MdAlternateEmail } from "react-icons/md";
-import ContactWithCaptcha from './contact-with-captcha';
-import ContactWithoutCaptcha from './contact-without-captcha';
 
 function ContactSection() {
   return (
@@ -18,10 +16,12 @@ function ContactSection() {
         <span className="h-36 w-[2px] bg-[#1a1443]"></span>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
-        {
-          (process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY && process.env.NEXT_PUBLIC_RECAPTCHA_SECRET_KEY) ? <ContactWithCaptcha />
-            : <ContactWithoutCaptcha />
-        }
+      <div className="">
+      <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
+        Contact with me
+      </p>
+      </div>
+    </div>
 
         <div className="lg:w-3/4 ">
           <div className="flex flex-col gap-5 lg:gap-9">
@@ -30,7 +30,7 @@ function ContactSection() {
                 className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={36}
               />
-              <span>{personalData.email}</span>
+              <span><a href="mailto:praveenprasath499@gmail.com">{personalData.email}</a></span>
             </p>
             <p className="text-sm md:text-xl flex items-center gap-3">
               <IoMdCall
@@ -67,7 +67,6 @@ function ContactSection() {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

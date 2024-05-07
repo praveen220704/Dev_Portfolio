@@ -1,7 +1,3 @@
-import ayla from '/public/image/ayla.jpg';
-import crefin from '/public/image/crefin.jpg';
-import realEstate from '/public/image/real-estate.jpg';
-import travel from '/public/image/travel.jpg';
 
 export const projectsData = [
     {
@@ -11,8 +7,7 @@ export const projectsData = [
         tools: ["React", "MongoDB", "Nodejs", "Express", "JWT"],
         role: 'Full Stack Developer',
         code: '',
-        demo: '',
-        image: travel,
+        demo: 'https://github.com/praveen220704/Job-portal_Backend,https://github.com/praveen220704/Job-Portal_Frontend',
     },
     {
         id: 2,
@@ -21,8 +16,7 @@ export const projectsData = [
         tools: ['React', 'Bootstrap', 'HTML', 'CSS','Javascript'],
         code: '',
         role: 'Front End Developer',
-        demo: '',
-        image: realEstate,
+        demo: 'https://praveenprasath.netlify.app/',
     },
 ];
 
